@@ -16,7 +16,7 @@ export default function Header() {
   return (
     <header className="header">
       <button
-        className="btn btn-label btn-large"
+        className="btn btn-ghost btn-large"
         onClick={() => setTheme(resolvedTheme === "light" ? "dark" : "light")}
       >
         {resolvedTheme === "light"

@@ -5,6 +5,14 @@
   --btn-text-large: 16px;
   --btn-text-extra-large: 18px;
 
+
+  --bg-ghost: var(--app-default);
+  --bg-ghost-hover: #F3F4F6;
+}
+
+.dark {
+  --bg-ghost: var(--app-default);
+  --bg-ghost-hover: #2E2640;
 }
 
 .btn {
@@ -23,9 +31,13 @@
   color: var(--text-default);
 }
 
-.btn-label {
-  background: var(--app-default);
+.btn-ghost {
+  background: var(--bg-ghost);
   color: var(--text-default);
+}
+
+.btn-ghost:hover {
+  background: var(--bg-ghost-hover);
 }
 
 .btn-small {
