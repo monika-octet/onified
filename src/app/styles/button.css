@@ -1,0 +1,47 @@
+:root {
+  --btn-text-xsmall: 10px;
+  --btn-text-small: 12px;
+  --btn-text-mid: 14px;
+  --btn-text-large: 16px;
+  --btn-text-extra-large: 18px;
+
+}
+
+.btn {
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.btn-primary {
+  background: var(--bg-primary);
+  color: var(--text-invert);
+}
+
+.btn-secondary {
+  background: var(--bg-secondary);
+  color: var(--text-default);
+}
+
+.btn-label {
+  background: var(--app-default);
+  color: var(--text-default);
+}
+
+.btn-small {
+  padding: var(--x-small) var(--medium);
+  border-radius: var(--small);
+  font-size: var(--btn-text-mid);
+}
+
+.btn-medium {
+  padding: var(--x-small) var(--big);
+  border-radius: var(--small);
+  font-size: var(--btn-text-large);
+}
+
+.btn-large {
+  padding: var(--medium) var(--big);
+  border-radius: var(--medium);
+  font-size: var(--btn-text-extra-large);
+}

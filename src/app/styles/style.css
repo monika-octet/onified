@@ -1,0 +1,12 @@
+.header {
+  background: var(--app-default);
+  padding: 30px;
+  text-align: center;
+}
+
+section {
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
